@@ -1,0 +1,139 @@
+
+body {
+  background-color: #0077B6;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.barra {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    max-width: 300px;
+    height: 100vh;
+    background: #0077B6;
+    padding: 1rem;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.mostrar-barra {
+    transform: translateX(0);
+}
+
+.header-barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.boton-barra {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1100;
+    background: #fff;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón cerrar */
+.boton-cierre {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Links de la barra */
+.links {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #00ADEF;
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+header {
+  text-align: center;
+  background-color:#E0F7FA;
+  padding: 1rem 0;
+}
+
+.top-banner {
+  background-color:#B2EBF2;
+  color: #333333;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.logo .highlight {
+  color: #ff7f50;
+}
+
+.container {
+  max-width: 400px;
+  margin: 2rem auto;
+  background-color: 0077B6;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #00ADEF;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background-color: #0077B6;
+}

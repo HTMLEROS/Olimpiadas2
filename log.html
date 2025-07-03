@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agencia SC</title>
+  <link rel="stylesheet" href="log.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+  <script src="log.js"></script>
+</head>
+<body>
+
+        <button class="boton-barra" id="abrirBarra">☰</button>
+    <!-- BARRA LATERAL -->
+    <aside class="barra" id="barraLateral">
+        <div class="header-barra">
+            <img src="img/logo.png" class="logo" alt="Agencia SC">
+            <!-- boton para cerrar -->
+            <button class="boton-cierre" id="cerrarBarra">✕</button>
+        </div>
+        <ul class="links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="paquetes.html">Paquete</a></li>
+            <li><a href="log.html">Iniciar seccion</a></li>
+        </ul>
+    </aside>
+
+  <header>
+    <div class="top-banner">Tu comodidad es nuestra mayor felicidad</div>
+    <div class="logo">Agencia <span class="highlight">SC</span></div>
+    
+    <nav class="navbar">
+      <a href="index.html" class="nav-link">Inicio</a>
+      <a href="log.html" class="nav-link">Iniciar sesión</a>
+      <a href="paquetes.html" class="nav-link">Paquetes</a>
+    </nav>
+  </header>
+  
+  <!-- Formulario -->
+  <div class="container">
+    <h2>Iniciar Sesión</h2>
+    <form id="login-form">
+      <input type="text" id="login-usuario" placeholder="Usuario" required>
+      <input type="password" id="login-clave" placeholder="Contraseña" required>
+      <button type="submit">Ingresar</button>
+    </form>
+
+    <hr>
+
+    <h2>Registrarse</h2>
+    <form id="registro-form">
+      <input type="text" id="reg-usuario" placeholder="Nuevo usuario" required>
+      <input type="password" id="reg-clave" placeholder="Nueva contraseña" required>
+      <button type="submit">Registrar</button>
+    </form>
+  </div>
+
+</body>
+</html>
